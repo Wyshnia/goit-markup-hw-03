@@ -85,6 +85,7 @@ line-height: 1.19;
 letter-spacing: 0.03em;
 padding-top: 24px;
 padding-bottom: 24px;
+margin-right: 93px;
 
 
 }
@@ -106,7 +107,6 @@ font-size: 26px;
 line-height: 1.19;   
 letter-spacing: 0.03em;  
 color: var(--second-title-color);
-margin-right: 93px;
 }
 
 .header-list {
@@ -291,7 +291,7 @@ margin-bottom: 10px;
     letter-spacing: 0.03em;
     color: #212121;
     margin-left: 0 auto;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 
 }
 
@@ -397,7 +397,7 @@ margin-bottom: 9px;
     color: var(--accent-color);
 }
 
-.footer-item {
+.footer-item:not(:last-child) {
     margin-bottom: 9px;
 }
 
